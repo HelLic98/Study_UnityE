@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 520d7a1e2c24bb947a9ce42058e65064, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -123,6 +123,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PillarBase
       objectReference: {fileID: 0}
+    - target: {fileID: 2618896631972248766, guid: ea56cb71b97dc834984ab12d3c4e562d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0050ffce94c46194ca393f7e92615249, type: 2}
+    - target: {fileID: 3947641529308691955, guid: ea56cb71b97dc834984ab12d3c4e562d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0050ffce94c46194ca393f7e92615249, type: 2}
     - target: {fileID: 4821792143797371679, guid: ea56cb71b97dc834984ab12d3c4e562d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
